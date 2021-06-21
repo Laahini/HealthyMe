@@ -22,6 +22,7 @@ function signUp(){
   const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
   promise.catch(e => alert(e.message));
   alert("Signed Up");
+  location.href = "home.html";
 }
 
 function signIn(){
@@ -30,6 +31,7 @@ function signIn(){
 
   const promise = auth.signInWithEmailAndPassword(email.value, password.value);
   promise.catch(e => alert(e.message));
+  location.href = "home.html";
 }
 
 function logOut(){
@@ -41,7 +43,7 @@ auth.onAuthStateChanged(function(user){
   if(user){
     //is signed in
     var email=user.email;
-    alert("Active User "+ email.value)
+    alert("Active User ")
   }else{
     alert("No Active User")
   }
