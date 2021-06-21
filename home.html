@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>HealthyMe</title>
+  <link rel="stylesheet" href="navigation.css"/>
+  <script src="nav-script.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d8d58f48fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class='navbar-wrapper'>
+      <div class='navbar left'>
+        <a class='navbar-logo' href='#signup'></a>
+      </div>
+      <div class='navbar right' id='navbar-right-web'>
+        <a class='nav-item' href="#about"> About </a>
+        <a class='nav-item' href="#tracx"> Tracx </a>
+        <a class='nav-item' href="#diet"> Diet </a>
+        <a class='nav-item' href="#relax"> Relax </a>
+        <a class='nav-item pink' href="#"> Shop </a>
+      </div>
+      <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
+      <div class='navbar right' id='navbar-right-mobile'>
+        <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
+          <i id="close-button" class="fas fa-times fa-sm"></i>
+        </div>
+        <a class='nav-item' href="#about"> About </a>
+        <a class='nav-item' href="#tracx"> Tracx </a>
+        <a class='nav-item' href="#diet"> Diet </a>
+        <a class='nav-item' href="#relax"> Relax </a>
+        <a class='nav-item pink' href="#"> Shop </a>
+      </div>
+    </div>
+    <div>
+</body>
+</html>
