@@ -34,11 +34,6 @@ function signIn(){
   location.href = "home.html";
 }
 
-function logOut(){
-  auth.signOut()
-  alert("Logged Out")
-}
-
 auth.onAuthStateChanged(function(user){
   if(user){
     //is signed in
