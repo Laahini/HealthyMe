@@ -16,3 +16,16 @@ function NavClose() {
     document.body.removeEventListener("click", clickToClose);
 }
 window.addEventListener('resize', clickToClose);
+
+function openShop() {
+  location.href= "shop.html";
+}
+function openMotivation(){
+  location.href= "Motivation.html";
+}
+function openJournal(){
+  location.href = "Journely.html";
+}
+function openUpcoming(){
+  location.href = "Upcoming.html";
+}

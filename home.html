@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <title>HealthyMe</title>
   <link rel="stylesheet" href="navigation.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="footer.css"/>
   <script src="nav-script.js"></script>
   <script src="sign.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,53 +22,100 @@
         <a class='navbar-logo' href='#signup'></a>
       </div>
       <div class='navbar right' id='navbar-right-web'>
-        <a class='nav-item' href="#about"> About </a>
-        <a class='nav-item' href="#tracx"> Tracx </a>
-        <a class='nav-item' href="#diet"> Diet </a>
-        <a class='nav-item' href="#relax"> Relax </a>
-        <a class='nav-item pink' href="#"> Shop </a>
+        <a class='nav-item' href="about.html"> About </a>
+        <a class='nav-item' href="tracx.html"> Tracx </a>
+        <a class='nav-item' href="diet.html"> Diet </a>
+        <a class='nav-item' href="relax.html"> Relax </a>
+        <a class='nav-item pink' href="shop.html"> Shop </a>
       </div>
       <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
       <div class='navbar right' id='navbar-right-mobile'>
         <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
           <i id="close-button" class="fas fa-times fa-sm"></i>
         </div>
-        <a class='nav-item' href="#about"> About </a>
-        <a class='nav-item' href="#tracx"> Tracx </a>
-        <a class='nav-item' href="#diet"> Diet </a>
-        <a class='nav-item' href="#relax"> Relax </a>
-        <a class='nav-item pink' href="#"> Shop </a>
+        <a class='nav-item' href="about.html"> About </a>
+        <a class='nav-item' href="tracx.html"> Tracx </a>
+        <a class='nav-item' href="diet.html"> Diet </a>
+        <a class='nav-item' href="relax.html"> Relax </a>
+        <a class='nav-item pink' href="shop.html"> Shop </a>
       </div>
   </div>
-  <br></br><br></br><br>
+  <br></br><br></br>
+  <div id="banner">
+    <div class="grid">
+      <div></div>
+      <div class="grid-item"><h3>We're planning something big soon! Wanna learn more?</h3></div>
+      <div class="grid-item"><button onclick="openUpcoming()">Click Here!</button></div>
+    </div>
+  </div>
   <div id="landing">
-    <h2>Well-come to HealthyMe!</h2>
+    <br><br><br><br><br>
+    <h2>Well-come to HealthyMe!</h2><!--MAYBE MAKE A TEXT ANIMATION HERE LIKE THE ONE THAT'S DESERT, FRIES, OCEAN ETC.-->
     <!--PUT PICTURE OF HEALTHY ME LOGO WITH NAME (CANVA)-->
-    <h4>Are you new? <a>Click Here to Watch A Demo</a></h4>
     <h5>HealthyMe is your all-in-one health and wellness cheerleader! You can track your work outs, diet and stress all in one place.
       We also offer resources on how to manage your mental and physical health.
       During this COVID-19 pandemic, isolation has taken a toll upon everyone but it is up to you on how you spend it.
       Let's make some big gains and reach those goals!
     </h5>
+    <h4>Are you new? <a>Click Here to Watch A Demo</a></h4>
   </div>
-  <div id="pepper">
-    <h3>Meet Pepper the Pig!</h3>
-    <h5>Pepper will be your trusty cheerleader. She will always be there to motivate you and cheer you on as you
-      progress through your journey. As you complete tasks such as adding your diet and working out, you will receive coinz.
-      Use these coinz to buy Peppa new outfits or to unlock new characters. Peppa wants to have more friends!</h5>
-      <button>Visit the Shop</button>
+  <div id="Pepper">
+    <div class="grid2">
+      <div>
+        <h3>Meet Pepper the Pig!</h3>
+        <h5>Pepper will be your trusty cheerleader. She will always be there to motivate you and cheer you on as you
+          progress through your journey. As you complete tasks such as adding your diet and working out, you will receive coinz.
+          Use these coinz to buy Peppa new outfits or to unlock new characters. Peppa wants to have more friends!</h5>
+          <button onclick="openShop()">Visit the Shop</button>
+      </div>
+      <div>
+        <!--IMAGE OF PEPPER-->
+      </div>
+    </div>
   </div>
   <div id="DailyReminder">
     <h3>Daily Reminder:</h3>
     <h4>YOU ARE STRONG! YOU ARE BEAUTIFUL! YOU DESERVE EVERYTHING! YOU BELONG!</h4>
-    <button>Macho Motivation</button>
+    <button onclick="openMotivation()">Macho Motivation</button>
   </div>
   <div id="Journely">
     <h3>Introducing Journely.</h3>
     <h5>Journely is an online journal for you to discuss and write down your thoughts, dreams, goals and
       more. We created Journely so that you could clear your mind and relax.
       Journaling is said to be highly effective for managing stress levels and anxiety. Give it a try now!</h5>
-      <button>I want to Journal</button>
+      <button onclick="openJournal()">I want to Journal</button>
+  </div>
+  <div id="Instructions">
+    <h3>Step-by-Step Details</h3>
+    <h5>HealthyMe is an all-in-one program that aims to reconnect you with your health during the COVID-19 pandemic.
+    Here's what we offer and how it works.</h5>
+    <div class="grid3">
+      <div class="grid-item">
+        <h5>What We Offer</h5>
+        <ul class="list">
+          <li>Free recipes and meal plans that accomodate your needs</li>
+          <li>Coordinated and Tailored Work outs and Yoga</li>
+          <li>Coinz for completing tasks</li>
+          <li>Mental Health Journal for you to jot down your thoughts</li>
+          <li>Calming music to wind down and relax</li>
+          <li>Goal-keeping for you to remember them</li>
+          <li>Traking program for your workouts and meals</li>
+          <li>Fun games to release some stress</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h5>How it Works</h5>
+        <ul class="list">
+          <li>Create an account(you already did!)</li>
+          <li>Watch the demo or read the instructions(you're doing it right now!)</li>
+          <li>Write down some goals in the Goal-keeper <a>Click here to go there</a></li>
+          <li>Start working on those goals by tracking your workouts and meals,
+            writing down your thoughts, and releasing some stress</li>
+          <li>Earn coniz and spend them in the shop to buy Peppa new outfits and unlock new characters</li>
+          <li>Share HealthyMe with your friends(we're planning something big soon!)</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </body>
 <footer>
