@@ -14,7 +14,7 @@ html {
 }
 .grid{
   display:grid;
-  grid-template-columns: 26.5% 35% 55%;
+  grid-template-columns: auto 35% auto;
   padding:1%;
   padding-bottom:0%;
   margin-bottom:0%;

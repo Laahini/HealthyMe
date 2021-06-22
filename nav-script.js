@@ -21,11 +21,11 @@ function openShop() {
   location.href= "shop.html";
 }
 function openMotivation(){
-  location.href= "Motivation.html";
+  location.href= "motivation.html";
 }
 function openJournal(){
-  location.href = "Journely.html";
+  location.href = "journely.html";
 }
 function openUpcoming(){
-  location.href = "Upcoming.html";
+  location.href = "upcoming.html";
 }
