@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>HealthyMe</title>
+  <link rel="stylesheet" href="navigation.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="footer.css"/>
+  <link rel="stylesheet" href="choosetable.css"/>
+  <script src="nav-script.js"></script>
+  <script src="sign.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d8d58f48fa.js" crossorigin="anonymous"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+</head>
+
+<body>
+  <div class='navbar-wrapper'>
+      <div class='navbar left'>
+        <a class='navbar-logo' href='#signup'></a>
+      </div>
+      <div class='navbar right' id='navbar-right-web'>
+        <a class='nav-item' href="about.html"> About </a>
+        <a class='nav-item' href="tracx.html"> Tracx </a>
+        <a class='nav-item' href="meals.html"> Meals </a>
+        <a class='nav-item' href="relax.html"> Relax </a>
+        <a class='nav-item pink' href="shop.html"> Shop </a>
+      </div>
+      <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
+      <div class='navbar right' id='navbar-right-mobile'>
+        <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
+          <i id="close-button" class="fas fa-times fa-sm"></i>
+        </div>
+        <a class='nav-item' href="about.html"> About </a>
+        <a class='nav-item' href="tracx.html"> Tracx </a>
+        <a class='nav-item' href="meals.html"> Meals </a>
+        <a class='nav-item' href="relax.html"> Relax </a>
+        <a class='nav-item pink' href="shop.html"> Shop </a>
+      </div>
+  </div>
+  <br></br><br></br>
+  <div id="meals-intro">
+    <h3>🥙 MEAL IDEAS 🥙</h3>
+  </div>
+  <div id="choose-meal">
+    <div class="background">
+  <div class="container">
+    <div class="panel p-table">
+      <div class="pricing-plan">
+        <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">Vegetarian</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">No meat</li>
+        </ul>
+        <a href="#/" class="pricing-button">View Plan</a>
+      </div>
+
+      <div class="pricing-plan">
+        <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">General</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Meat and Plants</li>
+        </ul>
+        <a href="#/" class="pricing-button is-featured">View Plan</a>
+      </div>
+
+      <div class="pricing-plan">
+        <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">Halal</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Muslim diet friendly</li>
+        </ul>
+        <a href="#/" class="pricing-button">View Plan</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+  </div>
+</body>
+<footer>
+  <p>HealthyMe © 2021</p>
+</footer>
+</html>

@@ -226,3 +226,54 @@ html {
 #Instructions li::before{
   content:"⭐️";
 }
+/*ABOUT PAGE*/
+/*ABOUT*/
+#about{
+  height: 50vh;
+  min-height: 350px;
+  background-color: white;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 0%;
+  color:#ffb27c;
+}
+#about h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#about h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+/*MISSION*/
+#mission{
+  height: 50vh;
+  min-height: 350px;
+  background-color: #ffb27c;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:white;
+}
+#mission h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#mission h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
