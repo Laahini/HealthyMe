@@ -1,4 +1,7 @@
 /*CARDS*/
+#cards{
+  font-family: sans-serif;
+}
 #cards h5{
   margin:0px;
   margin-left:-15%;
@@ -9,6 +12,7 @@
   font-size:12px;
   margin-left:-6%;
   margin-right:6%;
+  padding:0% 3%;
 }
 .grid4{
   display: grid;
@@ -25,7 +29,6 @@
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius:16px;
   overflow:hidden;
-  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
 .card-img{
   height:6em;
@@ -63,8 +66,6 @@
   cursor:pointer;
 }
 
-/**/
-
 /*VEGETARIAN*/
 #intro h3{
   font-size:35px;
@@ -79,4 +80,3 @@
   text-align: center;
   font-family: sans-serif;
 }
-/*CARDS*/

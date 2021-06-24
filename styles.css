@@ -291,3 +291,206 @@ html {
   text-align: center;
   font-family: sans-serif;
 }
+/*RELAX*/
+/*RELAXATION*/
+#relax-intro{
+  height: 50vh;
+  min-height: 375px;
+  background-color: #fffff0;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#ffabb8;
+}
+#relax-intro h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#relax-intro h5{
+  font-size:16px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#relax-intro a{
+  padding: 1% 5%;
+  width:40%;
+  background-color: #ffabb8;
+  font-size: 15px;
+  color:#ffffe7;
+  word-spacing: 1.5px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-left:5%;
+}
+#relax-intro a:hover{
+  background-color: #d68d99;
+}
+/*JOURNELY*/
+#Journely2{
+  height: 50vh;
+  min-height: 425px;
+  background-color: #65dbc0;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:white;
+}
+#Journely2 h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#Journely2 h5{
+  font-size:16px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#Journely2 button{
+  padding: 1% 5%;
+  width:40%;
+  background-color: white;
+  font-size: 15px;
+  color:#65dbc0;
+  word-spacing: 1.5px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-left:5%;
+  border:none;
+}
+#Journely2 button:hover{
+  background-color: #edfffb;
+}
+/*YOGA AND MEDITATION*/
+#yoga-intro{
+  height: 50vh;
+  min-height: 625px;
+  background-color: #fffff7;
+  padding-left:5%;
+  padding-right:5%;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#ffb27c;
+}
+#yoga-intro h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#yoga-intro h5{
+  font-size:16px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#yoga-intro button{
+  padding: 1% 5%;
+  width:40%;
+  background-color: #ffb27c;
+  font-size: 15px;
+  color:white;
+  word-spacing: 1.5px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-left:5%;
+  border:none;
+}
+#yoga-intro button:hover{
+  background-color: #fca66a;
+}
+/*DRAWING*/
+#drawing{
+  height: 50vh;
+  min-height: 525px;
+  background-color: #fffff7;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:left;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#65dbc0;
+}
+#drawing h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:0%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#drawing h5{
+  font-size:16px;
+  padding-left:0%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 24px;
+}
+/*MEDITATION MUSIC*/
+#music{
+  height: 50vh;
+  min-height: 375px;
+  background-color: #ffabb8;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:left;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#fffff7;
+}
+#music h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:0%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#music h5{
+  font-size:16px;
+  padding-left:0%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 24px;
+}
+/*Resources*/
+#resources{
+  height: 50vh;
+  min-height: 400px;
+  background-color: #ffc499;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:left;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#fffff7;
+  margin-top:-2.5%;
+}
+#resources-header{
+  margin-bottom: -2%;
+}
+#resources h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:0%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#resources h5, p{
+  color:black;
+}

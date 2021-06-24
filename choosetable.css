@@ -80,6 +80,14 @@ ul{
   padding: 15px 0;
   margin-left:-30%;
 }
+.pricing-features-item2 {
+  border-top: 1px solid #e1f1ff;
+  border-bottom: 1px solid #e1f1ff;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 15px 0;
+  margin-left:-30%;
+}
 .pricing-button {
   border: 1px solid #ffffe7;
   border-radius: 10px;
