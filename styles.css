@@ -293,9 +293,29 @@ html {
 }
 /*RELAX*/
 /*RELAXATION*/
+#relax-header{
+  background-color: #fffff0;
+  margin-top:-1.75%;
+  padding:1%;
+  padding-bottom:0%;
+  margin-bottom:-2%;
+}
+#relax-header h3{
+  font-size:35px;
+  padding:3%;
+  padding-bottom: 0;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  padding-top: 1.5%;
+  width:34%;
+  text-align: center;
+  font-family: sans-serif;
+}
 #relax-intro{
   height: 50vh;
-  min-height: 375px;
+  min-height: 400px;
   background-color: #fffff0;
   padding-left:5%;
   padding-right:5%;
@@ -493,4 +513,75 @@ html {
 }
 #resources h5, p{
   color:black;
+}
+/*TRACX*/
+#tracx-header{
+  background-color: white;
+  margin-top:-1%;
+  padding:1%;
+  padding-top:1.5%;
+  margin-bottom:-2%;
+}
+#tracx-header h3{
+  font-size:35px;
+  padding:3%;
+  padding-bottom: 0;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  padding-top: 1.5%;
+  width:34%;
+  text-align: center;
+  font-family: sans-serif;
+}
+#meal-tracx{
+  text-align:left;
+  font-family: sans-serif;
+}
+#tracx-intro{
+  height: 50vh;
+  min-height: 475px;
+  background-color: #fffff7;
+  padding-left:5%;
+  padding-right:5%;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#ffb27c;
+}
+#tracx-intro h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#tracx-intro h5{
+  font-size:16px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#tracx-intro h6{
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#tracx-intro button{
+  padding: 1% 5%;
+  width:40%;
+  background-color: #ffb27c;
+  font-size: 15px;
+  color:white;
+  word-spacing: 1.5px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-left:5%;
+  border:none;
+}
+#tracx-intro button:hover{
+  background-color: #fca66a;
 }
