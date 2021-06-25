@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="footer.css"/>
   <link rel="stylesheet" href="choosetable.css"/>
   <link rel="stylesheet" href="cards2.css"/>
-  <!--<link rel="stylesheet" href="meals.css"/>-->
   <script src="nav-script.js"></script>
   <script src="sign.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,7 +28,7 @@
         <a class='nav-item' href="tracx.html"> Tracx </a>
         <a class='nav-item' href="meals.html"> Meals </a>
         <a class='nav-item' href="relax.html"> Relax </a>
-        <a class='nav-item pink' href="shop.html"> Shop </a>
+        <a class='nav-item pink' href="upcoming.html"> Shop </a>
       </div>
       <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
       <div class='navbar right' id='navbar-right-mobile'>
@@ -40,7 +39,7 @@
         <a class='nav-item' href="tracx.html"> Tracx </a>
         <a class='nav-item' href="meals.html"> Meals </a>
         <a class='nav-item' href="relax.html"> Relax </a>
-        <a class='nav-item pink' href="shop.html"> Shop </a>
+        <a class='nav-item pink' href="upcoming.html"> Shop </a>
       </div>
   </div>
   <br></br><br><br><br>
@@ -56,7 +55,7 @@
           Mental health is crucial to a healthy lifestyle and your wellness but is not simple to achieve, especially without support.
           HealthyMe wants to help you achieve a stable mental health. That's why we provide many different reosurces for you to utilize and wind down.</h5>
         <h5>Want to learn more about Mental Health?</h5>
-        <a href="#">Click Here</a>
+        <a href="https://www.youtube.com/watch?v=DxIDKZHW3-E">Click Here</a>
       </div>
       <div>
         <!--INSERT AN IMAGE HERE-->
@@ -99,7 +98,7 @@
           It also helps you soothe anxiety and releive you of stress. Doing yoga daily or even weekly is highly beneficial in getting some movement
           activity while staying at home(although you can do it outside too!).</h5>
           <h5>Want to learn more about the benefits of yoga?</h5>
-          <button>Click Here</button>
+          <button onclick="openYoga()">Click Here</button>
         </div>
       </div>
     </div>
@@ -180,109 +179,67 @@
       <h3>Other Resources</h3>
     </div>
 
-    <!--
-    <div id="cards">
-      <div class="grid4">
-
-        <div id="card">
-          <div class="card">
-            <a href="#"><div class="card-img"></div></a>
-            <div class="card-descript">
-              <h5> Card Title </h5>
-              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
-            </div>
-          </div>
-        </div>
-
-        <div id="card">
-          <div class="card">
-            <a href="#"><div class="card-img"></div></a>
-            <div class="card-descript">
-              <h5> Card Title </h5>
-              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
-            </div>
-          </div>
-        </div>
-
-        <div id="card">
-          <div class="card">
-            <a href="#"><div class="card-img"></div></a>
-            <div class="card-descript">
-              <h5> Card Title </h5>
-              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
-            </div>
-          </div>
-        </div>
-
-        <div id="card">
-          <div class="card">
-            <a href="#"><div class="card-img"></div></a>
-            <div class="card-descript">
-              <h5> Card Title </h5>
-              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    -->
-
     <div id="resources-cards">
       <ul class="cards">
   <li>
-    <a href="" class="card">
-      <img src="https://i.imgur.com/oYiTqum.jpg" class="card__image" alt="" />
+    <a href="https://ok2talk.org/" class="card">
+      <img src="media/ok2talk.png" class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
-          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <svg class="card__arc"><path /></svg>
           <div class="card__header-text">
-            <h4 class="card__title">Jessica Parker</h4>
+            <h4 class="card__title">OK2TALK</h4>
           </div>
         </div>
-        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <p class="card__description">OK2TALK is a community that encourages teens and young adults struggling with
+          mental health problems to share their personal stories of recovery, tragedy, struggle or hope using
+          any medium of creative content.</p>
       </div>
     </a>
   </li>
   <li>
-    <a href="" class="card">
-      <img src="https://i.imgur.com/2DhmtJ4.jpg" class="card__image" alt="" />
+    <a href="https://www.crisistextline.org/" class="card">
+      <img src="media/crisistextline.png" class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
-          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <svg class="card__arc"><path /></svg>
           <div class="card__header-text">
-            <h4 class="card__title">kim Cattrall</h4>
+            <h4 class="card__title">Crisis Text Line</h4>
           </div>
         </div>
-        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <p class="card__description">Crisis Text line is a 24-hour support for those in crisis.
+          Text 741741 from anywhere in the US and you will receive an automated text asking you what your crisis is.
+          Within minutes, a live trained crisis counselor will answer your text for free.</p>
       </div>
     </a>
   </li>
   <li>
-    <a href="" class="card">
-      <img src="https://i.imgur.com/2DhmtJ4.jpg" class="card__image" alt="" />
+    <a href="https://www.calm.com/" class="card">
+      <img src="media/calm.png" class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
-          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <svg class="card__arc" ><path/></svg>
           <div class="card__header-text">
-            <h4 class="card__title">kim Cattrall</h4>
+            <h4 class="card__title">Calm</h4>
           </div>
         </div>
-        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <p class="card__description"> Calm is a website that assists you in relieving stress through
+          various activities such as meditation with different voices and guided practice.</p>
       </div>
     </a>
   </li>
   <li>
-    <a href="" class="card">
-      <img src="https://i.imgur.com/2DhmtJ4.jpg" class="card__image" alt="" />
+    <a href="https://xhalr.com/" class="card">
+      <img src="media/Exhaler.jpg" class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
-          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <svg class="card__arc"><path /></svg>
           <div class="card__header-text">
-            <h4 class="card__title">kim Cattrall</h4>
+            <h4 class="card__title">Exhaler</h4>
           </div>
         </div>
-        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <p class="card__description">Exhaler is a free website that helps you practice breathing techniques for relaxation and managing anxiety.
+          It can help clear your mind and also provide respiratory improvement. </p>
       </div>
     </a>
   </li>

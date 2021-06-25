@@ -516,7 +516,7 @@ html {
 }
 /*TRACX*/
 #tracx-header{
-  background-color: white;
+  background-color: #fffff7;
   margin-top:-1%;
   padding:1%;
   padding-top:1.5%;
@@ -541,7 +541,7 @@ html {
 }
 #tracx-intro{
   height: 50vh;
-  min-height: 475px;
+  min-height: 500px;
   background-color: #fffff7;
   padding-left:5%;
   padding-right:5%;
@@ -584,4 +584,135 @@ html {
 }
 #tracx-intro button:hover{
   background-color: #fca66a;
+}
+#tracx-landing{
+  background-color: #65dbc0;
+  font-family: sans-serif;
+  color:white;
+  height:300px;
+  text-align: center;
+  margin-top: -5%;
+}
+#tracx-landing h1{
+  font-size: 100px;
+  padding-top:10%;
+}
+/*UPCOMING*/
+#shop{
+  height: 50vh;
+  min-height: 425px;
+  background-color: white;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 0%;
+  color:#ffb27c;
+}
+#shop h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#shop h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+#tracx{
+  height: 50vh;
+  min-height: 500px;
+  background-color: #ffb27c;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:white;
+}
+#tracx h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#tracx h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+#landing2{
+  margin-top:0px;
+  height: 50vh;
+  min-height: 500px;
+  background-color: #bcf46e;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  color:#242424;
+}
+#landing2 h1{
+  font-size:150px;
+}
+.concept {
+  position: relative;
+  padding: 1em;
+  overflow: hidden;
+}
+.concept:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.concept:hover:before {
+  opacity: 0.5;
+}
+.concept-seven {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.concept-seven h1 {
+  letter-spacing: 35px;
+  position: relative;
+}
+.concept-seven h1:before {
+  content: "UPCOMING";
+  position: absolute;
+  margin-left:5%;
+  max-width: 250px;
+  color: transparent;
+  letter-spacing: 10px;
+  text-shadow: none;
+  font-size: 100px;
+}
+.concept-seven:hover h1:before {
+  transition: 0.6s ease;
+  color: rgba(0, 0, 0, 0.8);
+  animation: jump-out 0.6s ease forwards;
+}
+
+@keyframes jump-out {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
 }

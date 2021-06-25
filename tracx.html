@@ -17,6 +17,10 @@
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.2/web-animations.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/haltu/muuri@0.9.3/dist/muuri.min.js"></script>
+
+
 </head>
 
 <body>
@@ -29,7 +33,7 @@
         <a class='nav-item' href="tracx.html"> Tracx </a>
         <a class='nav-item' href="meals.html"> Meals </a>
         <a class='nav-item' href="relax.html"> Relax </a>
-        <a class='nav-item pink' href="shop.html"> Shop </a>
+        <a class='nav-item pink' href="upcoming.html"> Shop </a>
       </div>
       <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
       <div class='navbar right' id='navbar-right-mobile'>
@@ -40,7 +44,7 @@
         <a class='nav-item' href="tracx.html"> Tracx </a>
         <a class='nav-item' href="meals.html"> Meals </a>
         <a class='nav-item' href="relax.html"> Relax </a>
-        <a class='nav-item pink' href="shop.html"> Shop </a>
+        <a class='nav-item pink' href="upcoming.html"> Shop </a>
       </div>
   </div>
   <br></br><br></br>
@@ -51,13 +55,13 @@
     <div class="grid3">
       <div>
         <h3>Welcome to TRACX</h3>
-        <h5>Tracx is a program created by HealthyMe to help you keep track of your meals, workouts and goals along with other
+        <h5>Tracx is an upcoming program created by HealthyMe to help you keep track of your meals, workouts and goals along with other
           daily tasks you might have.</h5>
         <h5>We know how difficult it is to maintain a certain weight or measure your goals and actually achieving them.
           Who knows how many things we say we will do but never actually fulfill! This time, we'll help you mean what you say.
           Tracx will keep track of the time that you have worked out for, what meals you ate, and what tasks you completed.
           It's simple to use and easy to organize!</h5>
-        <h5>As of now, Tracx has three main tracks for our program: meals, physical exercise, and tasks. Check out each section below!</h5>
+        <h5>As of now, Tracx will have three main tracks for our program: meals, physical exercise, and tasks. Check out each section below!</h5>
         <h6>We are planning something big related to our tracx program, so look out and read more about it by clicking below.</h6>
         <button onclick="openUpcoming()">Click Here!</button>
       </div>
@@ -67,79 +71,8 @@
     </div>
   </div>
 
-  <div id="meal-tracx">
-
-    <div id="meal-tracx-instruct">
-      <div class="grid3">
-        <div>
-          <!--insert image-->
-        </div>
-        <div>
-          <h3>MEAL TRACX</h3>
-          <h5>The Meal Tracs program is very simple to use and helps you keep track of whether you have eaten your meals or not. Eating disorders, stress
-          and busy work days can all make you have irregular eating habits. HealhyMe's Meal Tracx program keeps track of when you have had your meals
-          and aims to support your goal of having a healthier eating schedule. </h5>
-          <h4>Here are the steps:</h4>
-          <ul>
-            <li>Wake up in the morning and eat breakfast</li>
-            <li>Click the breakfast button to mark off as you ate breakfast</li>
-            <li>Repeat the same process for lunch and dinner after you have ate them</li>
-            <li>Click the water button if you have drank at least 8 cups of water</li>
-            <li>Click Finished for the Day and repeat tomorrow!</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div id="myMealTracx">
-
-      <div id="container">
-        <h3>MY MEAL TRACX</h3>
-
-        <div class="meals-id-box">
-
-          <div class="meal-id">
-            <div class="bar">
-              <div class="imgbx"><i class="fas fa-coffee"></i></div>
-              <div class="progress breakfast"></div>
-              <p><span class="breakfast-counter">0</span>/1 Breakfast</p>
-            </div>
-          </div>
-
-          <div class="meal-id">
-            <div class="bar">
-              <div class="imgbx"><i class="fas fa-coffee"></i></div>
-              <div class="progress lunch"></div>
-              <p><span class="lunch-counter">0</span>/1 Lunch</p>
-            </div>
-          </div>
-
-          <div class="meal-id">
-            <div class="bar">
-              <div class="imgbx"><i class="fas fa-coffee"></i></div>
-              <div class="progress dinner"></div>
-              <p><span class="dinner-counter">0</span>/1 Dinner</p>
-            </div>
-          </div>
-
-          <div class="meal-id">
-            <div class="bar">
-              <div class="imgbx"><i class="fas fa-coffee"></i></div>
-              <div class="progress water"></div>
-              <p><span class="water-counter">0</span>/1 Water</p>
-            </div>
-          </div>
-
-        </div>
-      <div id="button-bar">
-        <button name="breakfast" title="click to fill item-achievement bar"><i class="fas fa-coffee"></i></button>
-        <button name="lunch" title="click to fill item-achievement bar"><i class="fas fa-coffee"></i></button>
-        <button name="dinner" title="click to fill item-achievement bar"><i class="fas fa-coffee"></i></button>
-        <button name="water" title="click to fill item-achievement bar"><i class="fas fa-coffee"></i></button>
-      </div>
-
-    </div>
-
+  <div id="tracx-landing">
+    <h1>COMING SOON...</h1>
   </div>
 
 </body>

@@ -29,3 +29,6 @@ function openJournal(){
 function openUpcoming(){
   location.href = "upcoming.html";
 }
+function openYoga(){
+  location.href = "https://www.youtube.com/watch?v=_8kV4FHSdNA"
+}
