@@ -35,44 +35,44 @@ ul{
   text-align: center;
   text-transform: uppercase;
 }
-.pricing-plan {
+.plan {
   border-bottom: 1px solid #e1f1ff;
   padding: 25px;
 }
-.pricing-plan:last-child {
+.plan:last-child {
   border-bottom: none;
 }
 @media (min-width: 900px) {
-  .pricing-plan {
+  .plan {
     border-bottom: none;
     border-right: 1px solid #e1f1ff;
     flex-basis: 100%;
     padding: 25px 50px;
   }
 
-  .pricing-plan:last-child {
+  .plan:last-child {
     border-right: none;
   }
 }
 
-.pricing-img {
+.plan-img {
   margin-bottom: 25px;
   max-width: 100%;
 }
-.pricing-header {
+.plan-header {
   color: #ffffe7;
   font-weight: 600;
   letter-spacing: 1px;
   font-family:sans-serif;
 }
-.pricing-features {
+.plan-feature {
   color: #242424;
   font-weight: 600;
   letter-spacing: 1px;
   margin: 10px 0 15px;
   font-family:sans-serif;
 }
-.pricing-features-item {
+.plan-feature-item {
   border-top: 1px solid #e1f1ff;
   border-bottom: 1px solid #e1f1ff;
   font-size: 12px;
@@ -80,7 +80,7 @@ ul{
   padding: 15px 0;
   margin-left:-30%;
 }
-.pricing-features-item2 {
+.plan-feature-item2 {
   border-top: 1px solid #e1f1ff;
   border-bottom: 1px solid #e1f1ff;
   font-size: 15px;
@@ -88,7 +88,7 @@ ul{
   padding: 15px 0;
   margin-left:-30%;
 }
-.pricing-button {
+.plan-button {
   border: 1px solid #ffffe7;
   border-radius: 10px;
   color: white;
@@ -98,8 +98,8 @@ ul{
   text-decoration: none;
   font-family:sans-serif;
 }
-.pricing-button:hover,
-.pricing-button:focus {
+.plan-button:hover,
+.plan-button:focus {
   background-color: #ffffe7;
   color:#ffabb8;
 }
